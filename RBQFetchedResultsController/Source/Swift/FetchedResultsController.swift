@@ -491,3 +491,5 @@ internal class DelegateProxy: NSObject, RBQFetchedResultsControllerDelegate {
     }
 
 }
+
+// TEST
