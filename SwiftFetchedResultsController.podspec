@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/Roobiq/RBQFetchedResultsController.git", :tag => "v#{s.version}", :submodules => true }
   s.source_files  = [
-    "RBQFetchedResultsController/Source/Swift/*.{h,swift}",
+    "RBQFetchedResultsController/Source/Swift/*.{m,h,swift}",
     "RBQFetchedResultsController/Source/RBQSafeRealmObject/*.{swift}"
   ]
   s.requires_arc = true
