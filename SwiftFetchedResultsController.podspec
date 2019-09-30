@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     "RBQFetchedResultsController/Source/RBQSafeRealmObject/*.{swift}"
   ]
   s.requires_arc = true
-  s.dependency "RealmSwift", ">=2.1.1"
+  s.dependency "RealmSwift", ">=3.18.0"
   s.dependency "RBQFetchedResultsController", ">=#{s.version}"
   s.dependency "SafeRealmObject"
 end
